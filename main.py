@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from mcp_client import fetch_mcp_suggestion
+from mcp_client.mcp_client import fetch_mcp_suggestion
 
 
 app = FastAPI()
